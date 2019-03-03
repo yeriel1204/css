@@ -1,0 +1,5 @@
+﻿    background: -webkit-linear-gradient(135deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-0) 40%,var(--color-0) 90%,var(--color-5) 95%,var(--color-3) 100%);
+}
+
+
+/*그라데이션 넣는 법(135도 회전!)*/
