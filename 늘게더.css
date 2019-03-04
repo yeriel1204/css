@@ -4,13 +4,13 @@
 
 body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857143; color: #237270; background-color: #fffeed;}
 
-input#password.form-control {font-family: 'Nanum Gothic', sans-serif;}
-
 .badge {background-color: #04d0d2;}
 
 span.badge.badge-default {
     display: none;
 }
+
+form#articleWriteForm input[name*="password"]{font-family:'Nanum Gothic', sans-serif;}
 
 a { color: #29b1b1; text-decoration: none; }
 
