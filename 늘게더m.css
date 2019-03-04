@@ -142,6 +142,10 @@ input#password.form-control {
   100%{color:#00c4c6;}
 }
 
+span.badge.badge-default {
+    display: none;
+}
+
 @font-face { font-family: 'WONDotum'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
 *{font-family:'WONDotum'}
