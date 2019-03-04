@@ -128,6 +128,11 @@ body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px
 
 #article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b {animation: infinite rainbowLinkBG 1s }
 
+
+input#password.form-control {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
 @keyframes rainbowLinkBG{
   000%{color:#00abad;}
   020%{color:#00c4c6;}
