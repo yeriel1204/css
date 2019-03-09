@@ -2,6 +2,20 @@
     outline: none;
 }
 
+input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
+
+input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
+
+span.badge.badge-default {
+    display: none;
+}
+
+
+element.style {
+    color: #29b1b1;
+}
+
+
 html {
     height: auto
     background: #fffeed;
