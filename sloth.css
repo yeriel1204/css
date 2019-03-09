@@ -10,6 +10,12 @@ span.badge.badge-default {
     display: none;
 }
 
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #c4e7e7 !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>a {
+    color: #237270;}
 
 element.style {
     color: #29b1b1;
