@@ -2,9 +2,29 @@
     outline: none;
 }
 
+input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
+
+input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
+
+span.badge.badge-default {
+    display: none;
+}
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: #c4e7e7 !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>a {
+    color: #237270;}
+
+element.style {
+    color: #29b1b1;
+}
+
+
 html {
     height: auto
-    background: #fffeed);
+    background: #fffeed;
 }
 
 body {
