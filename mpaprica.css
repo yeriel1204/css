@@ -132,40 +132,22 @@ input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
 
 input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
 
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정  
-.fr-command.fr-emoticon[data-param1=D.AESuppy] > img { 
-     width: 30px !important; 
-     height: 30px !important; 
-     padding-left: 30px;
-     background-image: var(--bg-img);
-     background-size: 100%;
-} 
-
- 글작성 후 보이는 이미지 수정 
-.fr-emoticon.fr-deletable > img[alt=D.AESuppy]{ 
-     width: 50px !important; 
-     height: 50px !important; 
-     padding-left: 50px;
-     background-image: var(--bg-img);
-     background-size: 100%; 
-}
-**/
 
 @keyframes rainbowLinkBG{
-  000%{color:#00abad;}
-  020%{color:#00c4c6;}
-  040%{color:#2cddde;}
-  060%{color:#54f6f8;}
-  080%{color:#2cddde;}
-  100%{color:#00c4c6;}
+  000%{color:#00ad4c;}
+  020%{color:#00c757;}
+  040%{color:#28dc77;}
+  060%{color:#54f89b;}
+  080%{color:#28dc77;}
+  100%{color:#00c757;}
 }
 
 span.badge.badge-default {
     display: none;
 }
 
-@font-face { font-family: 'WONDotum'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/WONDotum.woff') format('woff'); font-weight: normal; font-style: normal; } 
+@font-face { font-family: 'LeeHyunJi'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/LeeHyunJi.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-*{font-family:'WONDotum'}
+*{font-family:'LeeHyunJi'}
 
 *:focus {outline: none !important;}

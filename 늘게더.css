@@ -84,7 +84,7 @@ header #header-bar a.dropdown-toggle { display: inline-block; color: #29b1b1; te
 
 #board-info h1>a { text-decoration: none; color: #29b1b1; font-weight: bolder; } 
 
-#board-info #board-info-bottom a { font-size: 12px; color: #29b1b1; display: inline-block; padding: 0 8px; text-decoration: none; border-right: 1px solid #ebebeb; } 
+#board-info #board-info-bottom a { font-size: 12px; color: #29b1b1; display: inline-block; padding: 0 8px; text-decoration: none; border-right: 1px solid #c4e7e7; } 
 
 #board-info #viewers-area #viewers:after {
     content: "명이 사육 중!" ;
@@ -309,6 +309,26 @@ header #header-bar a.dropdown-toggle { display: inline-block; color: #29b1b1; te
     border-color: #237270;
 }
 
+--bg-img: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQQrx7Le2-SS_MQq5fDnQMza62W5KU62ZPbEvYVZfLlUhxf49);
+
+/** 이모티콘창에서 보이는 이모티콘 이미지 수정  
+.fr-command.fr-emoticon[data-param1=DAESuppy] > img { 
+     width: 30px !important; 
+     height: 30px !important; 
+     padding-left: 30px;
+     background-image: var(--bg-img);
+     background-size: 100%;
+} 
+
+ 글작성 후 보이는 이미지 수정 
+.fr-emoticon.fr-deletable > img[alt=DAESuppy]{ 
+     width: 50px !important; 
+     height: 50px !important; 
+     padding-left: 50px;
+     background-image: var(--bg-img);
+     background-size: 100%; 
+}
+**/
 
 @keyframes rainbowLinkBG{
   000%{color:#00abad;}
