@@ -22,7 +22,7 @@ element.style {
 }
 
 
-header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url("https://postfiles.pstatic.net/MjAxOTAzMDlfMTA0/MDAxNTUyMTQzMTE1NTAx.Zqh9TXA-IYAizh2aIGCoFn8ZQgmTyS33lHN6A87pk_Ig.4kwThMg88BAl4jJE5hJOrjyT1shAwL7sAT1V_OhtDZwg.PNG.yeriel1204/%EC%BA%A1%EC%B2%98.PNG?type=w773"); } 
+header .row > div:nth-child(1) > a { background-repeat: no-repeat; display: block; width: 139px; height: 50px; background-image: url("https://bit.ly/2UKYDqe"); } 
 
 header .row > div:nth-child(1) > a img { opacity: 0; } 
 
@@ -319,8 +319,10 @@ header #header-bar a.dropdown-toggle { display: inline-block; color: #28a960; te
   100%{color:#00c757;}
 }
 
-@font-face { font-family: 'LeeHyunJi'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/LeeHyunJi.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
 
-*{font-family:'LeeHyunJi'}
+*{font-family:'Dovemayo-Medium'}
+
+/* 폰트 사이트 https://noonnu.cc/font_page/122 */
 
 *:focus {outline: none !important;}

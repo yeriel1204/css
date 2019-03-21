@@ -309,9 +309,7 @@ header #header-bar a.dropdown-toggle { display: inline-block; color: #29b1b1; te
     border-color: #237270;
 }
 
---bg-img: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJQQrx7Le2-SS_MQq5fDnQMza62W5KU62ZPbEvYVZfLlUhxf49);
-
-/** 이모티콘창에서 보이는 이모티콘 이미지 수정  
+/* 이모티콘창에서 보이는 이모티콘 이미지 수정  
 .fr-command.fr-emoticon[data-param1=DAESuppy] > img { 
      width: 30px !important; 
      height: 30px !important; 
@@ -328,7 +326,7 @@ header #header-bar a.dropdown-toggle { display: inline-block; color: #29b1b1; te
      background-image: var(--bg-img);
      background-size: 100%; 
 }
-**/
+*/
 
 @keyframes rainbowLinkBG{
   000%{color:#00abad;}
