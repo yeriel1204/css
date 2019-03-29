@@ -1,0 +1,349 @@
+﻿@keyframes binglebingle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
+
+@font-face { font-family: 'KHNPHU'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHU.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {
+   font-family: 'KHNPHU' ,sans-serif;
+}
+
+::selection {
+	background-color: #ab9af5;
+	color: #fff;
+}
+
+header .row>div:nth-child(1)>a>img {
+    display: none;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+
+#main .menu-wrapper>.header {
+    background: #816bff;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.list-header span::before {
+    content: '⭐️';
+    vertical-align: middle;
+    font-size: 5px;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 100px;
+}
+
+.list-header.v0 > span {
+    display: none !important;
+}
+
+span.a-badge i.fa.fa-star {
+    animation: binglebingle 4s infinite;
+}
+
+header #header-bar #header-top-notice strong.notice-badge {
+    background: none;
+}
+
+#article-list #article-list-category>a {
+    display: inline-block;
+    border: 1px solid;
+    padding: 7px 9px;
+    background: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 3px 4px;
+}
+
+#article-list #article-list-category {
+    background: #f6f0ff;
+    border-top: 2px solid #816bff;
+    border-bottom: 2px solid #816bff;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #fff;
+    background-color: #816bff;
+    border: none;
+    border-bottom: 4px solid #6b61bf;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: #fff;
+    background-color: #796ddc;
+    margin-top: 2px;
+    border-bottom: 2px solid #6b61bf;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #fff;
+    background-color: #796ddc;
+    margin-top: 2px;
+    border-bottom: 2px solid #6b61bf;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+header #header-bar>.row {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    background: #fff;
+    border: 2px;
+    border-radius: 20px;
+}
+
+header #right-search-form>input[type=text] {
+    border-radius: 10px;
+    border: 2px solid #b8a8ff;
+}
+
+header #right-search-form>#right-search-btn {
+    color: #b8a8ff;
+}
+
+#article-list>.article-list-row {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #f6f0ff;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 0;
+}
+
+#article-list>.article-list-row.notice {
+    background-color: #f6f0ff;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #635adc;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #635adc;
+}
+
+#main .menu-wrapper .spacer {
+    background: #f6f0ff;
+}
+
+#main .menu-wrapper>a>em {
+    color: #adafff;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    color: #adafff;
+}
+
+#board-info #board-info-bottom a {
+    color: #777;
+}
+
+#main .menu-wrapper {
+    border-right: 0;
+    border-bottom: 0;
+    margin-bottom: 0.8em;
+    border-radius: 10px;
+    border: 1px solid #b8a8ff;
+}
+
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 10px 10px;
+}
+
+#main #main-content>div.frame {
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 10px;
+    border: 2px solid #b8a8ff;
+}
+
+#board-info h1 {
+    font-size: 24px;
+    vertical-align: top;
+    padding-bottom: 3px;
+    border-bottom: 0;
+}
+
+#article-list #article-list-menu>.btn.best {
+    background: #efc839;
+    color: #fff!important;
+    box-shadow: 0 4px 0 0 #daa101;
+    margin: 0 0 3px 0 !important;
+    border-radius: 4px!important;
+}
+
+#article-list #article-list-menu>.btn.best:hover {
+    margin-top: 2px!important;
+    margin-bottom: 1px!important;
+    background: #eac42a!important;
+    box-shadow: 0 2px 0 0 #daa101 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #816bff !important;
+    color: #fff!important;
+    margin: 0 0 3px 0 !important;
+    border-radius: 4px! important;
+    box-shadow: 0 4px 0 0 #6b61bf !important;
+    border: 0 !important;
+}
+
+.btn-primary:hover {
+    margin-top: 2px !important;
+    margin-bottom: 1px !important;
+    background: #816bff !important;
+    box-shadow: 0 2px 0 0 #6b61bf !important;
+}
+
+#article-content-wrapper>.header {
+    border-top: 0;
+    background: #f6f0ff;
+    padding: 0.6em 0.8em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#article-content-wrapper>.footer {
+    background: #f6f0ff;
+    padding: 0.5em 0.8em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #f6f5ff;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    margin-bottom: 0.5em;
+    border: 1px solid #b8a8ff;
+    position: relative;
+    border-radius: 10px;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: #f6f0ff;
+    border-bottom: 1px solid #b8a8ff;
+    padding: 0.4em 0.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#board-info #viewers-area #viewers:before {
+    content: "컴잘알 ";
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+}
+
+#board-info #viewers-area {
+    color: #816bff;
+}
+
+.fa-user:before {
+    content: url(https://cdn.discordapp.com/attachments/476422984010170369/551451772422455336/9ce9b5c1b87e525f.png);
+    left: 32px;
+    top: -128px;
+    
+}
+
+.fa-user:before {
+    content: url(https://cdn.discordapp.com/attachments/476422984010170369/551451772422455336/9ce9b5c1b87e525f.png);
+    left: 236px;
+    top: -128px;
+    position: absolute;
+}
+
+
+header .row > div:first-child > a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 139px;
+    height: 50px;
+    background-image: url(https://cdn.discordapp.com/attachments/476422984010170369/551443779400499215/2.png);
+}
+
+#article-list>.article-list-row:hover {
+    background: #f6f0ff;
+}
+
+#article-list>.article-list-row>.item>.list-header.v0>span:hover, #article-list>.article-list-row>.item>.list-header.v0>span {
+    background: #f6f0ff !important;
+}
+
+#article-list>.article-list-row.active {
+    background-color: #d5d6ff;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+    background: none !important;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #333;
+}
+
+#article-reply-area > .header h5 {
+    color: #816bff;
+}
+
+a {
+    color: #816bff;
+}
+
+.fa-info-circle:before {
+    content: "📢";
+}
+
+span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
+
+#main .menu-wrapper>a:hover {
+    background: #f6f0ff;
+}
+
+.fa-heart:before {
+    content: none;
+}
+
+.dropdown .dropdown-menu, .input-group-btn .dropdown-menu {
+    transition: all 0.4s cubic-bezier(0.18, 1.5, 0, 1);
+}
+
+html, body, .fr-popup.emoticons, .fr-desktop, .fr-active, .fr-tooltip, .fr-sticky-off, select.form-control, input[type=checkbox], input[type=radio], .opt {
+        cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur139.cur), default !important;
+}
+
+a {
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur138.cur), default !important;
+}
+
+#board-info h1>a:hover {
+    color: #816bff;
+}
+
+.open>.dropdown-menu {
+    border: 2px solid #816bff;
+}
+
+#article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
+    background: #816bff;
+    color: #fff!important;
+}

@@ -1,9 +1,10 @@
-//남의 집 거 베껴옴 로고 바꾸고 색깔 바꾸기
+
 
 /*바디*/
 html,
 body {
-    background: #fcffe350
+    height: auto !important;
+    background: #fcffe3; 
 }
 
 /*로고*/
@@ -148,11 +149,11 @@ header #right-search-form > #right-search-btn {
     width: 5em;
     border-radius: 50%;
     background: #fff;
-    border: 5px solid #00c254;
+    border: 2px solid #00c254;
 }
 
 #board-info #board-info-profile-img:hover {
-    border-radius: 15px 50% 50% 15px;
+    border: 4px double #00c254;
     transition: all 0.5s
 }
 
@@ -160,7 +161,6 @@ header #right-search-form > #right-search-btn {
     margin-right: 20px;
     position: relative;
     top: -7px;
-    animation: da 20s infinite;
     transition: all 0.5s
 }
 
@@ -173,10 +173,24 @@ header #right-search-form > #right-search-btn {
     color: #00c254
 }
 
-/*게시판*/
-#article-list #article-option-area > #article-option-area-toggle-btn {
-    display: none
+span.badge.badge-default {
+    display: none;
 }
+
+
+/*게시판*/
+#article-list #article-option-area {
+   margin-right: 15px;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn { 
+  background: transparent; 
+  height: 15px; 
+  opacity: 1; 
+} 
+
+#article-list #article-option-area>#article-option-area-toggle-btn:hover, #article-list #article-option-area>#article-option-area-toggle-btn:active { color: #28a960; } 
+
 
 #article-list > .article-list-row > .item > .list-header > span {
     background-color: #00c254;
@@ -203,6 +217,7 @@ header #right-search-form > #right-search-btn {
 
 #main #main-content > div.frame {
     border: none
+    border-radius: 10px;
 }
 
 /*인기글*/
@@ -276,7 +291,7 @@ header #right-search-form > #right-search-btn {
 }
 
 .fr-toolbar {
-    border-top: 3px solid #fe7c6f
+    border-top: 3px solid #0ccf88
 }
 
 .fr-toolbar.fr-top i:before {
@@ -323,7 +338,7 @@ footer a:hover {
 #movetotop {
     display: inline-block;
     opacity: 1;
-    background: url(https://cdn.discordapp.com/attachments/460145928850898945/542419700290813953/--1.png);
+    background: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMTkw/MDAxNTUzODY4NjI2MTYz.2YehQHesf9M10Q-9_Vy3b5jv0GxTvS9u9uaqx5u9ZHEg.p6U6ShmCgNkkcoUEnu00sft7gPkbEXr8ylf_sOYA4Iwg.PNG.yeriel1204/%EC%97%85.png?type=w773);
     width: 80px;
     height: 80px;
     background-size: contain;
@@ -332,22 +347,21 @@ footer a:hover {
 
 /*게시판 텝메뉴*/
 #article-list #article-list-category > a {
-    border-radius: 0 0 50% 50%;
+    border-radius: 10px 10px;
     width: auto;
-    margin: 0 5px 5px 0;
-    border: 2px solid #00c254;
+    margin: 5px 5px 5px 0;
+    border: 2px solid #d8f3e3;
     background: #fff;
-    border-top: none
 }
 
 #article-list #article-list-category {
     background: #fff
 }
 
-#article-list #article-list-category > a.active,
+#article-list #article-list-category > a.active, 
 #article-list #article-list-category > a:hover {
-    border-color: #ffcfcb;
-    transition: all 0.5s
+    transition: all 0.5s;
+    border: 3px double #00c254;
 }
 
 .fa-home:before {
@@ -356,38 +370,28 @@ footer a:hover {
 
 /*공지사항*/
 #article-list > .article-list-row.notice {
-    background-color: #fff;
-    border: 2px solid #00c254;
+    background-color: #bef3d582;
     border-radius: 10px;
     margin-bottom: 5px;
 }
 
-#article-list>.article-list-row>.item>.list-header>strong, #article-list>.article-list-row>.item>.list-header>b {animation: infinite rainbowLinkBG 1s }
+#article-list>.article-list-row>.item>.list-header>strong, 
+#article-list>.article-list-row>.item>.list-header>b {
+    animation: infinite rainbowLinkBG 1s 
+}
 
 /*인기글*/
 #article-list > .article-list-row.hot {
-    background-color: #fff;
-    border: 2px solid #00c254;
+    background-color: #e3ffca;
     border-radius: 10px;
     margin-bottom: 5px;
 }
 
-#article-list .fa-star:before {
-    display: inline-block;
-    width: 16px;
-    height: 15px;
-    background: url(https://cdn.discordapp.com/attachments/460145928850898945/543482128696868919/--1.png) no-repeat;
-    background-size: contain;
-    content: "";
-    position: relative;
-    transition: all 0.3s;
-    animation: mari 1s infinite;
-}
 
 /*상단인원*/
 #board-info #viewers-area .fa-user:before {
     color: rgba(10, 59, 84, 0);
-    content: url(https://static-cdn.jtvnw.net/badges/v1/9533d98f-2688-4fcd-8e04-b8bbd88f1e3a/1);
+    content: url(https://postfiles.pstatic.net/MjAxOTAzMjJfMTYx/MDAxNTUzMTg4MDU3NTI1.LNJko_nZO2KczcrunLkw1bobspdPv6-T8a7_6Pa-2I4g.48XkyPbnODdz7Rk_gnTZzpEbPlNAf968q-iTq2F9LvIg.PNG.yeriel1204/%ED%8C%8C%ED%94%84%EB%A6%AC%EC%B9%B4.png?type=w773);
 }
 
 #board-info #viewers-area #viewers:before {
@@ -424,67 +428,30 @@ small.favo i.fa.fa-heart:before {
 
 }
 
-@keyframes mari {
-
-    0% {
-        top: 0;
-    }
-
-    25% {
-        top: -2px
-    }
-
-    50% {
-        top: 0px
-    }
-
-    75% {
-        top: 2px
-    }
-
-    100% {
-        top: 0px
-    }
-}
-
-@keyframes da {
-    0% {
-        left: 0px
-    }
-
-    50% {
-
-        left: -454px
-    }
-
-    100% {
-
-        left: 0px
-    }
-}
-
-
 /*마우스 포인터*/
 * {
-    cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+    cursor: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMjM1/MDAxNTUzODY4MTk0NTUz._NgzY1bbm3pLRz0e0wqgd5Ur6aFMEdnJr24CVpWzXUog.6dvj_igdXWAfVVr53ePij3a_pdydR_0woioHEd7W9XMg.PNG.yeriel1204/%ED%8F%AC%EC%9D%B8%ED%84%B0.png?type=w773), auto !important;
 }
 
 #aw0 {
-    cursor: url(https://cdn.discordapp.com/attachments/460145928850898945/551101255687208989/mari.png) 4 5, auto !important;
+    cursor: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMjYw/MDAxNTUzODY4MTk0NTU0.DzbvKCulUzmyFJObqsfl15bP40D7LS5f847In9F1GPIg.5t8CKwSvawiNgSbge2ZihQVUBxd1TmuK7s7ZLL6kKPkg.PNG.yeriel1204/%ED%8F%AC%EC%9D%B8%ED%84%B0%ED%98%B8%EB%B2%84.png?type=w773), auto !important;
 }
 
 /*방송시작*/
 #board-info h1 > a.badge.badge-live::after {
     font-size: 12px;
-    content: "늘보 등장";
+    content: " 늘보 등장!";
 }
 
 /*게시글 호버*/
-#article-list .article-list-row:hover,
+#article-list .article-list-row:hover, 
 #article-list div.article-list-row.notice:hover {
-    transform: scale(1.025);
-    box-shadow: #00c254 0px 3px 12px -5px;
-    transition: all 0.35s;
+    transform: scale(1.015);
+    background: #bef3d520;
+}
+
+#article-list>.article-list-row.active {
+    background-color: #fcffe3;
 }
 
 /*게시글 밑줄*/
@@ -494,29 +461,7 @@ small.favo i.fa.fa-heart:before {
 #article-list > .article-list-row > .item > .list-title,
 #article-list > .article-list-row > .item > .list-blocked,
 #article-list > .article-list-row > .item > .list-time {
-    border: none;
-}
-
-/*스트리머메뉴*/
-#favoriteDropdownMenu > li > a > span.label.label-default {
-    margin-right: 1px
-}
-
-header:before {
-    display: block;
-    width: 100%;
-    height: 78px;
-    background: url('https://kbc2459.github.io/Custom/da.jpg') no-repeat #ff8f84;
-    background-position: center center;
-    position: relative;
-    top: 0;
-    padding: 0;
-    content: " ";
-    margin-bottom: 15px;
-}
-
-header {
-    padding: 0 0 0.4em 0;
+    border-radius: 10px;
 }
 
 /*버튼 추가 css*/
@@ -524,25 +469,26 @@ header {
 .btn-primary:active,
 .open > .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #fe4736;
-    border-color: #fe4736;
+    background-color: #01e968;
+    border-color: #01e968;
 }
 
 
 //공지 글자에 집어넣을 번쩍번쩍 효과, 색 바꾸기
+
 @keyframes rainbowLinkBG{
-  000%{color:#00ad4c;}
-  020%{color:#00c757;}
-  040%{color:#28dc77;}
-  060%{color:#54f89b;}
-  080%{color:#28dc77;}
-  100%{color:#00c757;}
+  000%{color:#00a035;}
+  020%{color:#00b74a;}
+  040%{color:#24cd5e;}
+  060%{color:#48e573;}
+  080%{color:#24cd5e;}
+  100%{color:#00b74a;}
 }
 
 @font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 *{font-family:'Dovemayo-Medium'}
-// 폰트 사이트 https://noonnu.cc/font_page/122
+//폰트 사이트 https://noonnu.cc/font_page/122
 
 input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
 
