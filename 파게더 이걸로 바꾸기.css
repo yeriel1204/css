@@ -4,7 +4,7 @@
 html,
 body {
     height: auto !important;
-    background: #fcffe3; 
+    background: #f1fced; 
 }
 
 /*·Î°í*/
@@ -216,7 +216,7 @@ span.badge.badge-default {
 }
 
 #main #main-content > div.frame {
-    border: none
+    border: 1px solid #00c254
     border-radius: 10px;
 }
 
