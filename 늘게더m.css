@@ -14,7 +14,7 @@ header {
 header.nav-up {
     top: 0px;
     height: 60px;
-    background: #00c254;
+    background: #daf4e5;
     border-radius: 0 0 10px 10px;
 }
 
@@ -42,7 +42,7 @@ header > #header-area > #header-bar-link .fa-bars:before {
 
 nav#nav {
     transition: all 0.4s cubic-bezier(0.77, -0.04, 1, 1.01);
-    background: #daf4e5;
+    background: #f3fff8;
 }
 
 nav.hide {
