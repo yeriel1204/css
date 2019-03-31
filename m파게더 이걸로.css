@@ -330,3 +330,8 @@ header > #header-search-bar #header-search-input {
     font-size: 12px;
     content: " 늘보 등장!";
 }
+
+@font-face { font-family: 'Dovemayo-Medium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+*{font-family:'Dovemayo-Medium'}
+//폰트 사이트 https://noonnu.cc/font_page/122
