@@ -407,7 +407,7 @@ input[type='text']
     background-color: ##c6fbf3;
 }
 
-.badge {
+span.badge.badge-default {
     display: none;
 }
 
