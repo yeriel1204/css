@@ -317,7 +317,7 @@ html, body {
 }
 
 #article-list>.article-list-row.active {
-    background-color: #d5d6ff;
+    background-color: #d5fffb;
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
