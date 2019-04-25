@@ -58,6 +58,17 @@ header .row > div:nth-child(1) > a {
     animation: infinite rainbowLinkBG 1s 
 }
 
+#article-content-wrapper>.footer {
+    background: #f0feff;
+}
+
+#article-content-wrapper>.header {
+    background: #f0feff;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: #f0feff;
+}
 
 #article-list>.article-list-row>.item>.list-header>span {
     background-color: #fff;
