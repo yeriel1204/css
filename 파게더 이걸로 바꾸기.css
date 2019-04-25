@@ -438,10 +438,10 @@ select.form-control,
 input[type=checkbox],
 input[type=radio],
 .opt{
-    cursor: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMjM1/MDAxNTUzODY4MTk0NTUz._NgzY1bbm3pLRz0e0wqgd5Ur6aFMEdnJr24CVpWzXUog.6dvj_igdXWAfVVr53ePij3a_pdydR_0woioHEd7W9XMg.PNG.yeriel1204/%ED%8F%AC%EC%9D%B8%ED%84%B0.png?type=w773)0 0, auto !important;
+    cursor: url("https://bit.ly/2HZy1z1")0 0, auto !important;
 }
 
-/* 마우스 커서 링크 */
+/* 마우스 커서 손모양 */
 #right-search-form>#right-search-btn,
 #board-info #board-info-bottom #addFavoriteBtn,
 #article-list #article-option-area>#article-option-area-toggle-btn,
@@ -454,16 +454,17 @@ input[type=radio],
 .fr-view img,
 .pull-left,
 a {
- cursor: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMjYw/MDAxNTUzODY4MTk0NTU0.DzbvKCulUzmyFJObqsfl15bP40D7LS5f847In9F1GPIg.5t8CKwSvawiNgSbge2ZihQVUBxd1TmuK7s7ZLL6kKPkg.PNG.yeriel1204/%ED%8F%AC%EC%9D%B8%ED%84%B0%ED%98%B8%EB%B2%84.png?type=w773)0 0, auto !important;
+ cursor: url("https://bit.ly/2UcGwNw")0 0, auto !important;
 }
 
+//글자 마우스커서
 span#viewers,
 #article-list #boardSearchForm .form-control,
 .fr-view,
 .fr-box.fr-basic.fr-element,
 input[type='text']
  {
- cursor: url(https://postfiles.pstatic.net/MjAxOTAzMzFfMTUx/MDAxNTUzOTkyMzgzMDg5.V-ewjLqrFNvuj1UZ8krF0UU2nYbzIXQzZQuZQ1E99C8g.ObWCeMrRBrN9d2tI6zL7mMGijBe9dh_SuZP_UC0zvTQg.PNG.yeriel1204/cursor_text.png?type=w773)0 0, auto !important;
+ cursor: url("https://bit.ly/2HYhBXy")0 0, auto !important;
 }
 
 /*방송시작*/
