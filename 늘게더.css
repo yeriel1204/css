@@ -1,12 +1,12 @@
 ﻿@keyframes binglebingle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
 
 @keyframes rainbowLinkBG{
-  000%{color:#00abad;}
-  020%{color:#00c4c6;}
-  040%{color:#2cddde;}
-  060%{color:#54f6f8;}
-  080%{color:#2cddde;}
-  100%{color:#00c4c6;}
+  000%{color:#2ef4f6;}
+  020%{color:#07a6a8;}
+  040%{color:#045c5d;}
+  060%{color:#07a6a8;}
+  080%{color:#2ef4f6;}
+  100%{color:#8df9fa;}
 }
 
 @font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
