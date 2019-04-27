@@ -166,7 +166,7 @@ header #right-search-form>#right-search-btn {
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #635adc;
+    color: #39b4c1;
 }
 
 #main .menu-wrapper .spacer {
@@ -303,13 +303,6 @@ html, body {
 
 .fa-film:before {
     content: "🎬";
-}
-
-.fa-user:before {
-    content: url("광고 칸 위의 공간입니다");
-    left: 236px;
-    top: -128px;
-    position: absolute;
 }
 
 #article-list>.article-list-row:hover {
