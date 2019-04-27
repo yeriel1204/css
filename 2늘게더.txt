@@ -153,8 +153,12 @@ header #right-search-form>#right-search-btn {
     border-bottom: 0;
 }
 
+#article-list>.article-list-row.hot {
+    background: linear-gradient(to right, #5affff 0%, #8dffff 10%, #c0ffff 35%, #f2ffff 65%, #c0ffff 90%, #8dffff 95%, #5affff 100%);
+}
+
 #article-list>.article-list-row.notice {
-    background-color: #c6fbf3;
+    background: linear-gradient(to right, #63fcb1 0%, #a6ffff 10%, #d9ffff 35%, #f2ffff 65%, #d9ffff 90%, #a6ffff 95%, #63fcb1 100%);
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
@@ -389,10 +393,6 @@ input[type='text']
 #article-list div.article-list-row.notice:hover {
     transform: scale(1.015);
     background: #bef3d520;
-}
-
-#article-list>.article-list-row.notice {
-    background-color: ##c6fbf3;
 }
 
 span.badge.badge-default {
