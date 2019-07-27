@@ -1,5 +1,6 @@
 ﻿/* 삽입할 링크
-@import url("https://yeriel1204.github.io/css/ruru.css"); */
+@import url("https://yeriel1204.github.io/css/ruru.css");
+*/
 
 /*사용한 색깔 모음
 
@@ -253,7 +254,7 @@ header #right-search-form>#right-search-btn {
 
 /*루태 밑에 즐겨찾기 등 써있는 거*/
 #board-info #board-info-bottom a {
-    color: #c9e9ff;
+    color: #57d3ff;
 }
 
 /*이거랑 밑에거랑 접속자 명수 앞 뒤로 붙는 거*/
