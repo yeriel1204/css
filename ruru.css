@@ -38,7 +38,7 @@ input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
 html, body {
     width: 100% !important;
     height: 100%;
-    background: #fffeed;
+    background: #c6f1ff;
 }
 
 /*전체 폰트*/
@@ -183,11 +183,11 @@ header #right-search-form>#right-search-btn {
 
 /*인기글*/
 #article-list>.article-list-row.hot {
-    background: #9eebff;}
+    background: #ebfaff;}
 
 /*공지*/
 #article-list>.article-list-row.notice {
-    background: #ebfaff;}
+    background: #c6f1ff;}
 
 /*목록에 게시글 댓글 수*/
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
