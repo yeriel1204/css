@@ -1,0 +1,414 @@
+﻿/*사용한 색깔 모음
+
+기본색: #57d3ff
+좀 어두운 색: #04aeeb
+더 어두운 색: #0a8bb8
+좀 밝은 색: #a2eaff
+완전 밝은 색: #ebfaff
+글씨용 어두운색: #007199
+*/
+
+
+/*색깔 시간마다 바뀜*/
+@keyframes rainbowLinkBG{
+  010%{color:#04beff;}
+  020%{color:#61c9ff;}
+  030%{color:#8ad3ff;}
+  040%{color:#61c9ff;}
+  050%{color:#04beff;}
+  100%{color:#009cdb;}
+}
+
+/*기본 글씨색인데 드러나는 일이 없다 사실 지워도 상관없는 것 같다*/
+a {
+    color: #57d3ff;
+}
+
+/*외곽선 제거*/
+*:focus {outline: none !important;}
+
+/*비밀번호창*/
+input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
+input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
+
+/*배경*/
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #fffeed;
+}
+
+/*전체 폰트*/
+body {
+   font-family: 'KOMACON' ,sans-serif;
+}
+
+/*드래그해서 선택시*/
+::selection {
+	background-color: #57d3ff;
+	color: #fff;
+}
+
+/*기본 로고 제거*/
+header .row>div:nth-child(1)>a>img {
+    display: none;
+}
+
+
+/*제작한 로고 넣기*/
+header .row > div:nth-child(1) > a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 139px;
+    height: 50px;
+    background-image: url("이미지 링크"); }
+
+
+/*추천 수 예쁘게*/
+.list-header span::before {
+    content: '⭐ ';
+    vertical-align: middle;
+    font-size: 5px;
+}
+
+/*공지부분 깜빡이*/
+#article-list>.article-list-row>.item>.list-header>strong,
+#article-list>.article-list-row>.item>.list-header>b {
+    animation: infinite rainbowLinkBG 1s 
+}
+
+/*추천수 글자*/
+#article-list>.article-list-row>.item>.list-header>span {
+    background: none;
+    color: #007199;
+    font-weight: bold;
+    padding: 1px 5px;
+    font-size: 11px;
+    border-radius: 100px;
+}
+
+/*원래라면 게시판 카테고리 분류지만 루게더엔 카테고리 분류가 없어서... 삭제해도 괜춘*/
+#article-list #article-list-category>a {
+    display: inline-block;
+    border: 1px solid;
+    padding: 7px 9px;
+    background: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 3px 4px;
+}
+
+/*원래라면 게시판 카테고리 분류지만 루게더엔 카테고리 분류가 없어서... 삭제해도 괜춘22*/
+#article-list #article-list-category {
+    background: #ebfaff;
+    border-top: 2px solid #57d3ff;
+    border-bottom: 2px solid #57d3ff;
+}
+
+/*맨밑에 게시글 페이지 넘어가는 그거 1/2/3 이거*/
+.pagination>li>a, .pagination>li>span {
+    color: #fff;
+    background-color: #57d3ff;
+    border: none;
+    border-bottom: 0
+}
+
+/*선택된 위에 거*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    color: #fff;
+    background-color: #a2eaff;
+    margin-top: 2px;
+    border-bottom: 0
+}
+
+/*위에 거에 마우스 갖다대면*/
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #fff;
+    background-color: #a2eaff;
+    margin-top: 2px;
+    border-bottom: 0
+}
+
+/*위에 거 둥글게*/
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+/*광고바 광고 글씨*/
+header #header-bar #header-top-notice strong.notice-badge {
+    background: none;
+    color: #57d3ff
+}
+
+/*광고바 테두리*/
+header #header-bar>.row {
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    background: #fff;
+    border: 2px solid #57d3ff;
+    border-radius: 20px;
+}
+
+/*검색창 테두리*/
+header #right-search-form>input[type=text] {
+    border-radius: 10px;
+    border: 2px solid #57d3ff;
+}
+
+/*검색창 이모티콘 색*/
+header #right-search-form>#right-search-btn {
+    color: #57d3ff;
+}
+
+/*게시글 목록*/
+#article-list>.article-list-row {
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #57d3ff;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+
+/*게시글 목록 밑그림자랑 공간 없애기*/
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 0;
+}
+
+/*인기글*/
+#article-list>.article-list-row.hot {
+    background: #9eebff;}
+
+/*공지*/
+#article-list>.article-list-row.notice {
+    background: #ebfaff;}
+
+/*목록에 게시글 댓글 수*/
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+    color: #0a8bb8;
+}
+
+/*글쓴이 색*/
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+    color: #0a8bb8;
+}
+
+
+/*왼쪽 메뉴*/
+#main .menu-wrapper>.header {
+    background: #57d3ff;
+    color: #fff;
+    padding: 0.45em 1.4em 0.45em 1em;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+
+/*왼쪽메뉴 사이 공간*/
+#main .menu-wrapper .spacer {
+    background: #ebfaff;
+}
+
+/*왼쪽 메뉴 테두리*/
+#main .menu-wrapper {
+    border-right: 0;
+    border-bottom: 0;
+    margin-bottom: 0.8em;
+    border-radius: 10px;
+    border: 1px solid #57d3ff;
+}
+
+/*왼쪽 메뉴 진하게 글자 써진 그거요 A 전체글 보기에서 A같은거 */
+#main .menu-wrapper>a>em {color: #57d3ff;} 
+
+/*왼쪽 메뉴 중에서도 밑에 거 네모난 그거 ㅁ트위치 에서 ㅁ같은 거*/
+#main .menu-wrapper>a>i.fa.fa-square {
+    color: #57d3ff;
+}
+
+/*왼쪽 메뉴 둥글게*/
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*왼쪽 메뉴 마우스 갖다대면*/
+#main .menu-wrapper>a:hover {
+    background: #ebfaff;
+}
+
+
+/*가운데 (게시글 있는) 보드 둥글게*/
+#main #main-content>div.frame {
+    border-right: 0;
+    border-bottom: 0;
+    border-radius: 10px;
+    border: 2px solid #57d3ff;
+}
+
+/*루태 밑에 즐겨찾기 등 써있는 거*/
+#board-info #board-info-bottom a {
+    color: #c9e9ff;
+}
+
+/*이거랑 밑에거랑 접속자 명수 앞 뒤로 붙는 거*/
+#board-info #viewers-area #viewers:before {
+    content: "루태 기다리는 ";
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+}
+
+/*접속자 수 색*/
+#board-info #viewers-area {
+    color: #57d3ff;
+}
+
+/*게시판 점수 색*/
+#board-info #viewers-area, #board-info #score-area {
+    color: #57d3ff;
+}
+
+/*광고 칸 위에 공간인데 뭐 넣을 거 있으신지..?*/
+.fa-user:before {
+    content: url("광고 칸 위의 공간입니다");
+    left: 236px;
+    top: -128px;
+    position: absolute;
+}
+
+
+/*나중에 찾아보기 기억 안 남*/
+#board-info h1 {
+    font-size: 24px;
+    vertical-align: top;
+    padding-bottom: 3px;
+    border-bottom: 0;
+}
+
+/*맨밑에 인기글 버튼인데 좀 수정하기*/
+#article-list #article-list-menu>.btn.best {
+    background: #efc839;
+    color: #fff!important;
+}
+
+/*위에다 마우스 댄 거*/
+#article-list #article-list-menu>.btn.best:hover {
+    background: #daa101 
+}
+
+/*맨밑에 글쓰기 버튼인데 테두리 없애고 동글동글하게 위에도 동일*/
+.btn-primary {
+    color: #fff;
+    background-color: #57d3ff !important;
+}
+
+/*위에다 마우스 댄 거*/
+.btn-primary:hover {
+    background: #04aeeb !important;
+}
+
+/*나중에 확인*/
+#article-list>.article-list-row.active {
+    background-color: #d5fffb;
+}
+
+/*공지 앞에 i 이모티콘 체인지*/
+.fa-info-circle:before {
+    content: "💧";
+}
+
+/*루태(스트리머 이름) 부분*/
+#board-info h1>a{
+    color: #04aeeb;
+}
+
+/*저기에 마우스 갖다댄 거*/
+#board-info h1>a:hover {
+    color: #0a8bb8;
+}
+
+/*게시판 카테고리 선택된 거랑 마우스 댄 거*/
+#article-list #article-list-category>a.active, #article-list #article-list-category>a:hover {
+    background: #a2eaff;
+    color: #fff!important;
+}
+
+/*게시글 목록에 마우스 올리면*/
+#article-list .article-list-row:hover, 
+#article-list div.article-list-row.notice:hover {
+    transform: scale(1.015);
+    background: #bef3d520;
+}
+
+/*얜 또 뭐람*/
+span.badge.badge-default {
+    display: none;
+}
+
+/*맨 위로 가기 버튼 없애고*/
+#movetotop img {
+    display: none;
+}
+
+/*맨 위로 가기 버튼 제작한 걸로 대체*/
+#movetotop {
+    display: inline-block;
+    opacity: 1;
+    background: url("");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+
+
+
+/*~~여기부터 게시글 페이지 css임~~~*/
+
+/*게시글 쓰여진 시간 알려주는 그 부분*/
+#article-content-wrapper>.header {
+    border-top: 0;
+    background: #ebfaff;
+    padding: 0.6em 0.8em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*ㅣ=목록ㅣ 있는 부분*/
+#article-content-wrapper>.footer {
+    background: #ebfaff;
+    padding: 0.5em 0.8em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*댓글 테두리*/
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    margin-bottom: 0.5em;
+    border: 1px solid #57d3ff;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*댓글 작성자 이름 있는 부분*/
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: #ebfaff;
+    border-bottom: 1px solid #57d3ff;
+    padding: 0.4em 0.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*댓글 작성자 이름 색*/
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged, #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+    color: #007199;
+}
+
+/*댓글 n개 부분 색*/
+#article-reply-area > .header h5 {
+    color: #57d3ff;
+}
