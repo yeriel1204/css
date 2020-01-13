@@ -2,7 +2,7 @@
 기본색 #c11310
 연한 배경색 #fae3e4
 글씨는 검정 #000
-인기글용 튀는 색 #
+인기글용 튀는 색 #c5c5c5
 좀 어두운 색 #9a0f0d
 */
 
@@ -10,14 +10,15 @@
 
 @keyframes rainbowLinkBG{
   000%{color:#fff;}
-  020%{color:#ffffcf;}
-  040%{color:#ffff9e;}
-  060%{color:#ffff4b;}
-  080%{color:#ffff9e;}
-  100%{color:#ffffcf;}
+  020%{color:#ffff9e;}
+  040%{color:#ffff4b;}
+  060%{color:#ffec16;}
+  080%{color:#ffff4b;}
+  100%{color:#ffff9e;}
 }
 
-@font-face { font-family: 'KOMACON'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'locus_sangsang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 *:focus {outline: none !important;}
 
 input#password.form-control {font-family:'Nanum Gothic', sans-serif; }
@@ -27,7 +28,7 @@ input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
 
 
 body {
-   font-family: 'KOMACON' ,sans-serif;
+   font-family: 'locus_sangsang' ,sans-serif;
 }
 
 ::selection {
@@ -91,13 +92,13 @@ header #header-bar #header-top-notice strong.notice-badge {
 #article-list #article-list-category>a {
     display: inline-block;
     border: 1px solid;
-    padding: 7px 9px;
+    padding: 6px 8px;
     background: #fff;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    border-radius: 15px;
-    margin: 3px 4px;
+    border-radius: 10px;
+    margin: 3px 3px;
 }
 
 #article-list #article-list-category {
@@ -162,11 +163,11 @@ header #right-search-form>#right-search-btn {
 }
 
 #article-list>.article-list-row.hot {
-    background: (대충 예쁜 색);
+    background: #c5c5c5;
 }
 
 #article-list>.article-list-row.notice {
-    background: (대충 예쁜 색);
+    background: #fc6f55;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
@@ -275,7 +276,7 @@ header #right-search-form>#right-search-btn {
 html, body {
     width: 100% !important;
     height: 100%;
-    background: #fffeed;
+    background: #656565;
 }
 
 #article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
@@ -400,7 +401,7 @@ input[type='text']
 #article-list .article-list-row:hover, 
 #article-list div.article-list-row.notice:hover {
     transform: scale(1.015);
-    background: #bef3d520;
+    background: #fdb5a8;
 }
 
 span.badge.badge-default {
