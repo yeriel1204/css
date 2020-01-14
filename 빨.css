@@ -181,7 +181,7 @@ header #right-search-form>#right-search-btn {
 }
 
 #article-list>.article-list-row.hot {
-    background: #c5c5c5;
+    background: #8e8e8e;
 }
 
 #article-list>.article-list-row.notice {
@@ -339,6 +339,10 @@ html, body {
     position: absolute;
 }
 
+#article-list>.article-list-row>.item>.list-title>a:visited{
+    color: #b3b6bb !important;
+}
+
 #article-list>.article-list-row:hover {
     background: #f0feff;
 }
@@ -385,23 +389,6 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
     transition: all 0.4s cubic-bezier(0.18, 1.5, 0, 1);
 }
 
-html, body, .fr-popup.emoticons, .fr-desktop, .fr-active, .fr-tooltip, .fr-sticky-off, select.form-control, input[type=checkbox], input[type=radio], .opt {
-        cursor: url(https://bit.ly/2HZy1z1), default !important;
-}
-
-a {
-    cursor: url(https://bit.ly/2UcGwNw), default !important;
-}
-
-span#viewers,
-#article-list #boardSearchForm .form-control,
-.fr-view,
-.fr-box.fr-basic.fr-element,
-input[type='text']
- {
-    cursor: url("https://bit.ly/2HYhBXy")0 0, auto !important;
-}
-
 #board-info h1>a:hover {
     color: #c11310;
 }
@@ -437,4 +424,24 @@ span.badge.badge-default {
     width: 80px;
     height: 80px;
     background-size: contain;
+}
+
+html,
+body,
+.fr-popup.emoticons,
+.fr-top,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt
+ {
+ cursor: url("ㅇ") 0 0, auto !important;
+}
+
+
+*.reply-writer.logged:hover,
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span:hover,
+button:hover,
+a:hover {
+	cursor: url("ㅇ") 0 0, auto !important;
 }
