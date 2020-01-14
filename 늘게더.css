@@ -359,11 +359,11 @@ span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 }
 
 html, body, .fr-popup.emoticons, .fr-desktop, .fr-active, .fr-tooltip, .fr-sticky-off, select.form-control, input[type=checkbox], input[type=radio], .opt {
-        cursor: url(https://bit.ly/2HZy1z1.png), default !important;
+        cursor: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMjM1/MDAxNTUzODY4MTk0NTUz._NgzY1bbm3pLRz0e0wqgd5Ur6aFMEdnJr24CVpWzXUog.6dvj_igdXWAfVVr53ePij3a_pdydR_0woioHEd7W9XMg.PNG.yeriel1204/%ED%8F%AC%EC%9D%B8%ED%84%B0.png?type=w773.png) 0 0, auto !important;
 }
 
 a {
-    cursor: url(https://bit.ly/2UcGwNw.png), default !important;
+    cursor: url(https://bit.ly/2UcGwNw.png) 0 0, auto !important;
 }
 
 span#viewers,
@@ -372,7 +372,7 @@ span#viewers,
 .fr-box.fr-basic.fr-element,
 input[type='text']
  {
-    cursor: url(https://bit.ly/2HYhBXy.png)0 0, auto !important;
+    cursor: url(https://bit.ly/2HYhBXy.png) 0 0, auto !important;
 }
 
 #board-info h1>a:hover {
