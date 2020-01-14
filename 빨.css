@@ -6,6 +6,10 @@
 좀 어두운 색 #9a0f0d
 */
 
+/* 삽입할 링크
+@import url("https://yeriel1204.github.io/css/빨.css");
+*/
+
 @keyframes binglebingle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
 
 @keyframes rainbowLinkBG{
@@ -107,6 +111,20 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-bottom: 2px solid #c11310;
 }
 
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    background: transparent;
+    height: 15px;
+    opacity: 1;
+} 
+
+#article-list #article-option-area>#article-option-area-toggle-btn:hover, #article-list #article-option-area>#article-option-area-toggle-btn:active {
+    color: #9a0f0d;
+} 
+
+#article-list #article-option-area {
+    margin-right: 15px;
+} 
+
 .pagination>li>a, .pagination>li>span {
     color: #fff;
     background-color: #c11310;
@@ -171,11 +189,11 @@ header #right-search-form>#right-search-btn {
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-    color: #635adc;
+    color: #000;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-    color: #635adc;
+    color: #000;
 }
 
 #main .menu-wrapper .spacer {
