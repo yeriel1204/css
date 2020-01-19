@@ -197,7 +197,7 @@ header #right-search-form>#right-search-btn {
 }
 
 #main .menu-wrapper .spacer {
-    background: #f0feff;
+    background: #fff0f0;
 }
 
 #main .menu-wrapper>a>em {
@@ -278,14 +278,14 @@ header #right-search-form>#right-search-btn {
 
 #article-content-wrapper>.header {
     border-top: 0;
-    background: #f0feff;
+    background: #fff0f0;
     padding: 0.6em 0.8em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 #article-content-wrapper>.footer {
-    background: #f0feff;
+    background: #fff0f0;
     padding: 0.5em 0.8em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -305,7 +305,7 @@ html, body {
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
-    background: #f0feff;
+    background: #fff0f0;
     border-bottom: 1px solid #c11310;
     padding: 0.4em 0.5em;
     border-top-left-radius: 10px;
@@ -344,11 +344,11 @@ html, body {
 }
 
 #article-list>.article-list-row:hover {
-    background: #f0feff;
+    background: #fff0f0;
 }
 
 #article-list>.article-list-row>.item>.list-header.v0>span:hover, #article-list>.article-list-row>.item>.list-header.v0>span {
-    background: #f0feff !important;
+    background: #fff0f0 !important;
 }
 
 #article-list>.article-list-row.active {
@@ -378,7 +378,7 @@ a {
 span.a-badge i.fa.fa-star { animation: binglebingle 4s infinite; }
 
 #main .menu-wrapper>a:hover {
-    background: #f0feff;
+    background: #fff0f0;
 }
 
 .fa-heart:before {
