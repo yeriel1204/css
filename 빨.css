@@ -21,7 +21,7 @@
   100%{color:#ffff9e;}
 }
 
-@font-face { font-family: 'locus_sangsang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NIXGONM-Vb'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 *:focus {outline: none !important;}
 
@@ -32,7 +32,7 @@ input#commentPassword {font-family:'Nanum Gothic', sans-serif;}
 
 
 body {
-   font-family: 'locus_sangsang' ,sans-serif;
+   font-family: 'NIXGONM-Vb' ,sans-serif;
 }
 
 ::selection {
