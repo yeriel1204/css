@@ -36,8 +36,8 @@ body {
 }
 
 ::selection {
-	background-color: #c11310;
-	color: #fff;
+    background-color: #c11310;
+    color: #fff;
 }
 
 header .row>div:nth-child(1)>a>img {
