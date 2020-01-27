@@ -47,9 +47,11 @@ header .row>div:nth-child(1)>a>img {
 
 header .row > div:nth-child(1) > a {
     background-repeat: no-repeat;
-    display: block; width: 139px;
+    display: block;
+    width: 139px;
     height: 50px;
-    background-image: url("빨게더 이미지 만들기"); } 
+    background-image: url(https://postfiles.pstatic.net/MjAyMDAxMjdfMTYz/MDAxNTgwMTMyMjg2Nzg1.zC9DkQf0GDoK_aeWjEaFz4ZtI36JHh1-DZIhjhCkO3Ug.M2qQyZWm7pf7Q5UoQ9x0aXPm7WLsXzXnTXGXirZ7m5og.PNG.yeriel1204/%EB%B9%A8%EA%B2%8C%EB%8D%94_3.png?type=w773);
+}
 
 
 #main .menu-wrapper>.header {
