@@ -353,21 +353,6 @@ span.badge.badge-default {
     display: none;
 }
 
-/*맨 위로 가기 버튼 없애고*/
-#movetotop img {
-    display: none;
-}
-
-/*맨 위로 가기 버튼 제작한 걸로 대체*/
-#movetotop {
-    display: inline-block;
-    opacity: 1;
-    background: url("http://bitly.kr/XBaQLa");
-    width: 80px;
-    height: 80px;
-    background-size: contain;
-}
-
 
 
 
