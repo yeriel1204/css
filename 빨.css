@@ -490,19 +490,6 @@ span.badge.badge-default {
     display: none;
 }
 
-#movetotop img {
-    display: none;
-}
-
-#movetotop {
-    display: inline-block;
-    opacity: 1;
-    background: url(https://postfiles.pstatic.net/MjAxOTAzMjlfMTkw/MDAxNTUzODY4NjI2MTYz.2YehQHesf9M10Q-9_Vy3b5jv0GxTvS9u9uaqx5u9ZHEg.p6U6ShmCgNkkcoUEnu00sft7gPkbEXr8ylf_sOYA4Iwg.PNG.yeriel1204/%EC%97%85.png?type=w773);
-    width: 80px;
-    height: 80px;
-    background-size: contain;
-}
-
 html,
 body,
 .fr-popup.emoticons,
